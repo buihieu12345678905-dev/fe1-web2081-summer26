@@ -7,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
+  title = 'my-app';
+  name = 'hieu';
+  age = '22';
 
+  sayHello() {
+    alert('hello ');
+    console.log('hello');
+    
+  }
+
+  handleClick() {
+  alert("hello");
+}
 }
